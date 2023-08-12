@@ -101,9 +101,9 @@ android {
         }
         debug {
             storeFile file('debug.keystore')
-            storePassword 'android'
-            keyAlias 'androiddebugkey'
-            keyPassword 'android'
+            storePassword 'Your_Password'
+            keyAlias 'Key_alias'
+            keyPassword 'key_Password'
         }
     }
     buildTypes {
